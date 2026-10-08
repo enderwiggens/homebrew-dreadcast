@@ -1,23 +1,23 @@
 class Dreadcast < Formula
   desc "Weather and radar for the command line"
   homepage "https://github.com/enderwiggens/dreadcast-cli"
-  version "0.2.0"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     depends_on macos: :ventura
-    url "https://github.com/enderwiggens/dreadcast-cli/releases/download/v0.2.0/dread-macos-universal.zip"
-    sha256 "471ebb6ab8b3207c4bfdfdde68b47df0d5849919589632dfb3e1572d0d16968b"
+    url "https://github.com/enderwiggens/dreadcast-cli/releases/download/v0.3.0/dread-macos-universal.zip"
+    sha256 "e5a5344b50a6a514ac3358c62edb6c5482507f7fa69f82285bd58b3680ca0b25"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/enderwiggens/dreadcast-cli/releases/download/v0.2.0/dread-linux-x86_64.tar.gz"
-      sha256 "577030ad6e0d9b5cf3df192ff5e898aa9b3eaaf5e4c5820f9dc90c4b5677dd66"
+      url "https://github.com/enderwiggens/dreadcast-cli/releases/download/v0.3.0/dread-linux-x86_64.tar.gz"
+      sha256 "671635b8a6c4cb2be4b01c8dea7bae7c38edc7a510d34be350cba8b79321cf49"
     end
     on_arm do
-      url "https://github.com/enderwiggens/dreadcast-cli/releases/download/v0.2.0/dread-linux-arm64.tar.gz"
-      sha256 "7a078d80e1ff3dd364539df5144b1f139f968cdba078fa518b5b74f72f497809"
+      url "https://github.com/enderwiggens/dreadcast-cli/releases/download/v0.3.0/dread-linux-arm64.tar.gz"
+      sha256 "ed9f11d4d798b1dac1992c5d753dae4ef2d0ddcdad2b1831dee193bd9dd82325"
     end
   end
 
